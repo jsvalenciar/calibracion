@@ -4,7 +4,7 @@
 
 
                                        <!-- ESTA VA A SER LA PAGINA PARA CREAR LOS CLIENTES -->
- 
+
     <div class="container mt-5">
         <h4 class="text-center mb-4"> CREAR CLIENTES</h4>
         <form action="{{route("products.store")}}" method="POST">

@@ -24,6 +24,9 @@
                   </li>
                 <a class="nav-link active" aria-current="page" href="{{route('products.index')}}">Productos</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">calibraciones</a>
+              </li>
               <!--<li class="nav-item">
                 <a class="nav-link" href="/movements">Movimientos</a>
               </li>-->

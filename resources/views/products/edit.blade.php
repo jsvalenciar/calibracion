@@ -15,11 +15,11 @@
 
         <div class="row">
             <div class="col-md-6 mb-3">
-                <label for="namr">Nombre del Cliente</label>
+                <label for="namr">Nombre del Cliente :</label>
                 <input type="text" name="name" id="name" class="form-control" value="{{old("name",$products->name)}}">
             </div>
             <div class="col-md-6 mb-3">
-                <label for="code">CC O NIT</label>
+                <label for="code">CC O NIT :</label>
                 <input type="text" name="code" id="code" class="form-control" value="{{old("code",$products->code)}}">
             </div>
         </div>
@@ -27,11 +27,11 @@
 
         <div class="row">
             <div class="col-md-6 mb-3">
-                <label for="city">Ciudad</label>
+                <label for="city">Ciudad :</label>
                 <input type="text" name="city" id="city" class="form-control" value="{{old("city",$products->city)}}">
             </div>
             <div class="col-md-6 mb-3">
-                <label for="address">Direccion</label>
+                <label for="address">Direccion :</label>
                 <input type="text" name="address" id="address" class="form-control" value="{{old("address",$products->address)}}">
             </div>
         </div>
@@ -39,11 +39,11 @@
 
         <div class="row">
             <div class="col-md-6 mb-3">
-                <label for="email">Correo Electornico</label>
+                <label for="email">Correo Electornico :</label>
                 <input type="text" name="email" id="email" class="form-control" value="{{old("email",$products->email)}}">
             </div>
             <div class="col-md-6 mb-3">
-                <label for="number">Telefono</label>
+                <label for="number">Telefono :</label>
                 <input type="text" name="number" id="number" class="form-control" value="{{old("number",$products->number)}}">
             </div>
 

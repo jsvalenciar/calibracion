@@ -19,6 +19,9 @@
         <div class="col-auto">
             <input type="text" id="Contraseña" class="form-control" name="Contraseña" style="width: 300px; text-align: center;">
         </div>
+
+      <a href="#"class="button is-link is-light"> Olvide mi contraseña </a>
+
     <a href="/products" class="btn btn-primary">inicio</a>
 
 @endsection

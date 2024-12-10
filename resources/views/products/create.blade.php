@@ -12,31 +12,31 @@
 
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <label for="name">Nombe del Cliente</label>
+                    <label for="name">Nombe del Cliente :</label>
                     <input type="text" name="name" id="name" class="form-control" placeholder="Nombre del Cliente">
                 </div>
                 <div class="col-md-6 mb-3">
-                    <label for="code">CC O NIT</label>
+                    <label for="code">CC O NIT :</label>
                     <input type="text" name="code" id="code" class="form-control" placeholder="CC ONIT">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <label for="city">Ciudad</label>
+                    <label for="city">Ciudad :</label>
                     <input type="text" name="city" id="city" class="form-control" placeholder="Ciudad">
                 </div>
                 <div class="col-md-6 mb-3">
-                    <label for="address">Direccion</label>
+                    <label for="address">Direccion :</label>
                     <input type="text" name="address" id="address" class="form-control" placeholder="Direccion">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <label for="email">Correo Electornico</label>
+                    <label for="email">Correo Electronico :</label>
                     <input type="text" name="email" id="email" class="form-control" placeholder="Correo Electornico">
                 </div>
                 <div class="col-md-6 mb-3">
-                    <label for="number">Telefono</label>
+                    <label for="number">Telefono :</label>
                     <input type="text" name="number" id="number" class="form-control" placeholder="Telefono">
                 </div>
             </div>

@@ -13,7 +13,7 @@
         <h2 class="card-title">Bienvenido al Aplicativo Web</h2>
         <h4> <p class="card-text">Analisis Metrologico</p></h4>
         <a href="/login" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Iniciar Sesión</a>
-        <a href="/register" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Crear Cuenta</a>
+        <a href="/register" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Crear Cuenta </a>
         <br><br>
       </div>
     </section>

@@ -10,10 +10,12 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Nombre Empresa</th>
-                <th>NIT</th>
-                <th>Correo Electornico</th>
+                <th>Nombre del Cliente</th>
+                <th>CC O NIT</th>
+                <th>Ciudad</th>
                 <th>Direccion</th>
+                <th>Correo Electornico</th>
+                <th>Telefono</th>
                 
         </thead>
         <tbody>
@@ -22,8 +24,10 @@
                 <td>{{$product->id}}</td>
                 <td>{{$product->name}}</td>
                 <td>{{$product->code}}</td>
-                <td>{{$product->email}}</td>
+                <td>{{$product->city}}</td>
                 <td>{{$product->address}}</td>
+                <td>{{$product->email}}</td>
+                <td>{{$product->number}}</td>
                 <td class= "d-flex justify-content-start gap-2">
                     <a href="{{route("products.edit", $product)}}" class="btn btn-outline-success"> Editar</a>
                     <form action="{{route("products.destroy", $product)}}" method="POST">

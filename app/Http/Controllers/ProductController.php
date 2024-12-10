@@ -33,12 +33,14 @@ class ProductController extends Controller
         $product = new product();
         $product->name =$request->name;
         $product->code =$request->code;
-        $product->email =$request->email;
+        $product->city =$request->city;
         $product->address =$request->address;
+        $product->email =$request->email;
+        $product->number =$request->number;
         $product->save();
         return redirect()->route("products.index");
     }
-
+    
     /**
      * Display the specified resource.
      */
@@ -62,8 +64,10 @@ class ProductController extends Controller
     {
         $product->name =$request->name;
         $product->code =$request->code;
-        $product->email =$request->email;
+        $product->city =$request->city;
         $product->address =$request->address;
+        $product->email =$request->email;
+        $product->number =$request->number;
         $product->save();
 
         return redirect()->route("products.index");

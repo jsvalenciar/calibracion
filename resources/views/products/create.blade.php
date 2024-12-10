@@ -1,5 +1,5 @@
 @extends('layouts.plantilla')
-@section('title',"Index de productos")
+@section('title',"Crear nuevo Cliente")
 @section('content')
 
 
@@ -12,22 +12,32 @@
 
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <label for="name">Nombe de la Empresa</label>
-                    <input type="text" name="name" id="name" class="form-control" placeholder="Nombre de la Empresa">
+                    <label for="name">Nombe del Cliente</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Nombre del Cliente">
                 </div>
                 <div class="col-md-6 mb-3">
-                    <label for="code">NIT</label>
-                    <input type="text" name="code" id="name" class="form-control" placeholder="NIT">
+                    <label for="code">CC O NIT</label>
+                    <input type="text" name="code" id="code" class="form-control" placeholder="CC ONIT">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <label for="email">Correo</label>
-                    <input type="text" name="email" id="email" class="form-control" placeholder="Correo Electornico">
+                    <label for="city">Ciudad</label>
+                    <input type="text" name="city" id="city" class="form-control" placeholder="Ciudad">
                 </div>
                 <div class="col-md-6 mb-3">
                     <label for="address">Direccion</label>
                     <input type="text" name="address" id="address" class="form-control" placeholder="Direccion">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="email">Correo Electornico</label>
+                    <input type="text" name="email" id="email" class="form-control" placeholder="Correo Electornico">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="number">Telefono</label>
+                    <input type="text" name="number" id="number" class="form-control" placeholder="Telefono">
                 </div>
             </div>
             <div class="text-center mt-4">

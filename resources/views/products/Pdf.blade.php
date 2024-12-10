@@ -20,18 +20,23 @@
     <thead>
         <tr>
                 <th>Id</th>
-                <th>Nombre Empresa</th>
-                <th>NIT</th>
-                <th>Correo Electornico</th>
+                <th>Nombre del Cliente</th>
+                <th>CC O NIT</th>
+                <th>Ciudad</th>
                 <th>Direccion</th>
+                <th>Correo Electornico</th>
+                <th>Telefono</th>
+
     </thead>
     <tbody>
         <tr>
             <td>{{$product->id}}</td>
             <td>{{$product->name}}</td>
             <td>{{$product->code}}</td>
-            <td>{{$product->email}}</td>
+            <td>{{$product->city}}</td>
             <td>{{$product->address}}</td>
+            <td>{{$product->email}}</td>
+            <td>{{$product->number}}</td>
         </tr>
     </tbody>
 </table>

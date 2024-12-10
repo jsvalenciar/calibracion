@@ -12,7 +12,7 @@
     <div class="card-body">
     <div class="text-center">
     <div>
-    <img src="{{ asset("imagenes/casa.jpg") }}" alt="home Aplication">
+    <img class="img-fluid" src="{{ asset("imagenes/home.webp") }}" alt="home Aplication">
     </div>
       <h5 class="card-title">Bienvenido al Aplicativo Web</h5>
       <p class="card-text">Analisis Metrologico</p>

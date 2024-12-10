@@ -12,12 +12,12 @@
     <div class="card-body">
     <div class="text-center">
     <div class="container">
-        <img class="img-fluid w-100" src="{{ asset("imagenes/home.webp") }}" alt="home Aplication">
+        <img width="500" height="600" class="img-fluid w-100" src="{{ asset("imagenes/home.webp") }}" alt="home Aplication">
     </div>
       <h5 class="card-title">Bienvenido al Aplicativo Web</h5>
       <p class="card-text">Analisis Metrologico</p>
       <a href="/login" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Iniciar Sesión</a>
-      <a href="/register" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Crear Cuenta</a>
+      <a  href="/register" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Crear Cuenta</a>
 
       <br><br>
       <a href="/products" class="btn btn-primary">Ir a Menú</a>

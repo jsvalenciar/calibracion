@@ -11,8 +11,8 @@
     <div class="card-header"></div>
     <div class="card-body">
     <div class="text-center">
-    <div>
-    <img class="img-fluid" src="{{ asset("imagenes/home.webp") }}" alt="home Aplication">
+    <div class="container">
+        <img class="img-fluid w-100" src="{{ asset("imagenes/home.webp") }}" alt="home Aplication">
     </div>
       <h5 class="card-title">Bienvenido al Aplicativo Web</h5>
       <p class="card-text">Analisis Metrologico</p>

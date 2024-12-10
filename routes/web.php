@@ -11,5 +11,5 @@ Route::get("/", HomeController::class)->name("home");
 Route::resource("/products",ProductController::class);
 Route::get("/poducts/pdf/{id}",[ProductController::class, "pdf"])->name("pdf");
 //Route::resource("/movements", MovementController::class);
-Route::get("/login",LoginController::class)->name("login");
-Route::get("/register",RegisterController::class)->name("register");
+Route::resource("/login",LoginController::class)->name("login");
+Route::resource("/register",RegisterController::class)->name("register");

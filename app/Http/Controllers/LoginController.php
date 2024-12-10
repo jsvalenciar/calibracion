@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
-    public function __invoke()
+    public function index()
     {
-        return view("login");
+        return view("login.login");
     }
 }

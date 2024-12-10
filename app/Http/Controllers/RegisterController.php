@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class RegisterController extends Controller
 {
-    public function __invoke()
+    public function index()
     {
-        return view("register");
+        return view("login.register");
     }
 }

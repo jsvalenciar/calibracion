@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container mt-5">
-    <h4 class="text-center mb-4"> Modificar Cliente</h4>
+    <h4 class="text-center mb-4"> Modificar Informacion del Cliente</h4>
     <form action="{{route("products.update", $products)}}" method="POST">
         @method("PUT")
 

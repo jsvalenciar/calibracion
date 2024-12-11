@@ -1,5 +1,5 @@
 @extends('layouts.plantilla')
-@section('title',"Index de productos")
+@section('title',"Registro de Usuario") 
 @section('content')
 
 <h1> REGISTRO </h1>

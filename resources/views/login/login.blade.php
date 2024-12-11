@@ -1,5 +1,5 @@
 @extends('layouts.plantilla')
-@section('title',"Index de productos")
+@section('title',"Inicio de Sesion")
 @section('content')
 
 <h1> Inicio de Sesion </h1>
